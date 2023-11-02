@@ -5,10 +5,10 @@ object-assign
 */
 
 /*!
-   * imagesLoaded v4.1.4
-   * JavaScript is all like "You images are done yet or what?"
-   * MIT License
-   */
+     * imagesLoaded v4.1.4
+     * JavaScript is all like "You images are done yet or what?"
+     * MIT License
+     */
 
 /*!
   Copyright (c) 2017 Jed Watson.
@@ -31,7 +31,9 @@ OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 ***************************************************************************** */
 
-/*! @license DOMPurify | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/2.0.8/LICENSE */
+/*! @license DOMPurify 2.4.7 | (c) Cure53 and other contributors | Released under the Apache license 2.0 and Mozilla Public License 2.0 | github.com/cure53/DOMPurify/blob/2.4.7/LICENSE */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
 
 /** @license React v0.19.1
  * scheduler.production.min.js
