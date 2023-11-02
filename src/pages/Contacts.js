@@ -91,13 +91,15 @@ class Contacts extends React.Component {
                         <Col className='contacts-col middle'>
                             <Adress style={{width: 31.3, height: 43.6}}/>
                             <p className='contacts-col-title'>{t("TID_ADRESS")}</p>
-                            <p className='contacts-col-text'>ul. "Knyaz Boris I" 1, 3703</p>
-                            <p className='contacts-col-text'>Kaleto, Vidin, Bulgaria</p>
+                            <p className='contacts-col-text'>{t("TID_ADRESS_LOCAL1")}</p>
+                            <p className='contacts-col-text'>{t("TID_ADRESS_LOCAL2")}</p>
                         </Col>
                         <Col className='contacts-col'>
                             <Email style={{width: 48, height: 43.6}}/>
                             <p className='contacts-col-title'>{t("TID_EMAIL")}</p>
                             <a href="mailto:kirova.dnastudio@gmail.com" className='contacts-col-text'>kirova.dnastudio@gmail.com</a>
+                            <br></br>
+                            <a href="mailto:nikoldesighn@gmail.com" className='contacts-col-text'>nikoldesighn@gmail.com</a>
                         </Col>
                     </Row>
 
@@ -118,10 +120,6 @@ class Contacts extends React.Component {
                             <Button type="submit" disabled={this.state.loading} className='contacts-button' size='lg'>{t(this.state.button)}</Button>
                         </Form.Group>
                     </Form>
-                </Container>
-
-                <Container fluid={true} className='p-0' style={{height: 516}}>
-                    <MapContainer />
                 </Container>
             </Container>
         )
